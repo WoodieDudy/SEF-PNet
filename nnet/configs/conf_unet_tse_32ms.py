@@ -13,9 +13,9 @@ nnet_conf = {
     "paddings": (1, 0),
     "output_padding": (0, 0),
     "tcn_dims": 384, 
-    "tcn_blocks": 10,
+    "tcn_blocks": 4,
     "tcn_layers": 2,
-    "causal": False,
+    "causal": True,
     "num_spks": 1 
 }
 
