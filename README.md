@@ -2,6 +2,11 @@
 
 Official PyTorch implementation of the paper "[SEF-PNet: Speaker Encoder-Free Personalized Speech Enhancement with Local and Global Contexts Aggregation](https://arxiv.org/abs/2501.11274)" in ICASSP 2025.
 
+## Веб Демо
+[tse.ktsd.cc](https://tse.ktsd.cc/)
+
+
+Можно взять примеры аудио в папке *audio/*
 
 ## В этом форке я пытаюсь сделать модель стриминговой
 
