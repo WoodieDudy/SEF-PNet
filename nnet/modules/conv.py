@@ -13,7 +13,7 @@ class Conv2dBlock(nn.Module):
             kernel_size: tuple[int] = (3, 3),
             stride: tuple[int] = (1, 1),
             padding: tuple[int] = (1, 1),
-            norm="streaming_ema",
+            norm="instance",
             cut_right_padding=False
         ) -> None:
         super(Conv2dBlock, self).__init__() 
@@ -56,7 +56,7 @@ class ConvTrans2dBlock(nn.Module):
             padding: tuple[int] = (1, 0),
             output_padding: tuple[int] = (0, 0),
             bias=True,
-            norm="streaming_ema",
+            norm="instance",
             cut_right_padding=True
         ) -> None:
         super(ConvTrans2dBlock, self).__init__() 

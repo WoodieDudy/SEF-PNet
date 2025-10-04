@@ -18,7 +18,7 @@ class TCNBlock(nn.Module):
             paddings: int = 1,
             dilation: int = 1,
             causal: bool = False,
-            norm="streaming_ema"
+            norm="instance"
         ) -> None:
         super(TCNBlock, self).__init__()
         self.elu1 = nn.ELU()
