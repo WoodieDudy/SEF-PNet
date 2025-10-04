@@ -6,7 +6,7 @@ Official PyTorch implementation of the paper "[SEF-PNet: Speaker Encoder-Free Pe
 [tse.ktsd.cc](https://tse.ktsd.cc/)
 
 
-Можно взять примеры аудио в папке *audio/*
+Можно взять примеры аудио в корне репы (wav файлы)
 
 ## В этом форке я пытаюсь сделать модель стриминговой
 
