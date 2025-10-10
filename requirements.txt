@@ -1,8 +1,6 @@
-torch==2.3.0
-numpy==1.22.4
-mir_eval==0.7
-pesq==0.0.4
-pypesq @ https://github.com/vBaiCai/python-pesq/archive/master.zip#sha256=fba27c3d95e8f72fed7c55f675ce6057a64b26a1a67a2e469df2804cca69b8cc
-pystoi==0.3.3
+numpy==2.0.2
+streamlit==1.50.0
+torch==2.7.1
 soundfile==0.12.1
-librosa==0.10.1
+scipy==1.13.1
+audio-recorder-streamlit==0.0.10
